@@ -21,35 +21,55 @@
 <body class="light bg-gray-100 text-gray-800 transition-colors duration-300">
   
 <div class="container mx-auto py-10">
-        <div class="flex justify-between items-center mb-8">
-            <h1 class="text-4xl font-bold">Awesome Lists</h1>
-            <button id="toggleDarkMode" class="p-2 border rounded shadow">Toggle Dark Mode</button>
-        </div>
-        
-        <div class="flex justify-center mb-4">
-            <button onclick="showLists('all')" id="allTab" class="p-2 border rounded-l shadow bg-blue-500 text-white">All Lists</button>
-            <button onclick="showLists('favorites')" id="favoritesTab" class="p-2 border rounded-r shadow">Favorites</button>
-        </div>
+  <div class="flex justify-between items-center mb-8">
+    <h1 class="text-4xl font-bold">Awesome Lists</h1>
+    <button id="toggleDarkMode" class="p-2 border rounded shadow">Toggle Dark Mode</button>
+  </div>
 
-        <div class="mb-4 flex justify-center">
-            <input id="searchInput" type="text" placeholder="Search Awesome Lists..." class="w-full max-w-lg p-3 border rounded-lg shadow focus:outline-none" oninput="filterLists()">
-        </div>
+  <div class="flex flex-wrap justify-center gap-4 mb-4">
+    <button onclick="showLists('all')" id="allTab" class="p-2 border rounded shadow bg-blue-500 text-white">All Lists</button>
+    <button onclick="showLists('favorites')" id="favoritesTab" class="p-2 border rounded shadow">Favorites</button>
 
-        <div class="mb-4 flex justify-center">
-            <select id="sortOptions" class="p-2 border rounded" onchange="sortLists()">
-                <option value="title">Sort by Title</option>
-                <option value="newest">Sort by Newest</option>
-            </select>
-        </div>
+    <select id="categoryFilter" class="p-2 border rounded" onchange="filterLists()">
+      <option value="">All Categories</option>
+      <option value="AI">AI</option>
+      <option value="Travel">Travel</option>
+      <option value="Programming">Programming</option>
+      <option value="Cryptocurrency">Cryptocurrency</option>
+      <option value="Databases">Databases</option>
+      <option value="Decentralized Systems">Decentralized Systems</option>
+      <option value="Digital Marketing">Digital Marketing</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Frameworks">Frameworks</option>
+      <option value="Gaming Development">Gaming Development</option>
+      <option value="Mathematics">Mathematics</option>
+      <option value="Media">Media</option>
+      <option value="Platforms">Platforms</option>
+      <option value="Quantum Computing">Quantum Computing</option>
+      <option value="Science">Science</option>
+      <option value="Sustainability">Sustainability</option>
+      <option value="Space Technology">Space Technology</option>
+      <option value="Web Optimization">Web Optimization</option>
+    </select>
 
-        <div id="paginationControls" class="mb-4 flex justify-center"></div>
+    <select id="sortOptions" class="p-2 border rounded" onchange="sortLists()">
+      <option value="title">Sort by Title</option>
+      <option value="newest">Sort by Newest</option>
+    </select>
+  </div>
 
-        <div id="awesomeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
-    </div>
+  <div class="mb-4 flex justify-center">
+    <input id="searchInput" type="text" placeholder="Search Awesome Lists..." class="w-full max-w-lg p-3 border rounded-lg shadow focus:outline-none" oninput="filterLists()">
+  </div>
 
-    <footer class="mt-8 bg-gray-200 p-4 text-center">
-        <p class="text-sm">Copyright &copy; Awesome Lists by <a href="https://www.himpfen.com/" target="_blank" class="text-blue-600 hover:underline">Brandon Himpfen</a>. All Rights Reserved.</p>
-    </footer>
+  <div id="paginationControls" class="mb-4 flex justify-center"></div>
+
+  <div id="awesomeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+</div>
+
+<footer class="mt-8 bg-gray-200 p-4 text-center">
+  <p class="text-sm">Copyright &copy; <a href="https://www.himpfen.com/" target="_blank" class="text-blue-600 hover:underline">Brandon Himpfen</a>. All Rights Reserved..</p>
+</footer>
 
   <script  src="./script.js"></script>
 
