@@ -606,6 +606,20 @@ const awesomeLists = [
       "A curated list of awesome tools, libraries, frameworks, and resources for TypeScript.",
     link: "https://github.com/awesomelistsio/awesome-typescript",
     category: "Programming"
+  },
+  {
+    title: "Awesome Crypto Compliance",
+    description:
+      "A curated list of awesome tools, platforms, frameworks, and resources for regulatory compliance.",
+    link: "https://github.com/awesomelistsio/awesome-crypto-compliance",
+    category: "Cryptocurrency"
+  },
+  {
+    title: "Awesome Zero-Knowledge Proofs",
+    description:
+      "A curated list of awesome libraries, tools, frameworks, and resources for Zero-Knowledge Proofs (ZKPs).",
+    link: "https://github.com/awesomelistsio/awesome-zero-knowledge-proofs",
+    category: "Decentralized Systems"
   }
 ];
 
