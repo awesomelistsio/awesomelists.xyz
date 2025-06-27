@@ -620,6 +620,41 @@ const awesomeLists = [
       "A curated list of awesome libraries, tools, frameworks, and resources for Zero-Knowledge Proofs (ZKPs).",
     link: "https://github.com/awesomelistsio/awesome-zero-knowledge-proofs",
     category: "Decentralized Systems"
+  },
+  {
+    title: "Awesome Climate Change",
+    description:
+      "A curated list of impactful resources, tools, data, frameworks, and organizations dedicated to understanding and addressing climate change.",
+    link: "https://github.com/awesomelistsio/awesome-climate-change",
+    category: "Society"
+  },
+  {
+    title: "Awesome G7",
+    description:
+      "A curated list of resources, reports, data, and policy tools related to the Group of Seven (G7).",
+    link: "https://github.com/awesomelistsio/awesome-g7",
+    category: "Politics"
+  },
+  {
+    title: "Awesome Political Science",
+    description:
+      "A curated list of high-quality resources, tools, datasets, and educational content related to political science.",
+    link: "https://github.com/awesomelistsio/awesome-political-science",
+    category: "Politics"
+  },
+  {
+    title: "Awesome Human Rights",
+    description:
+      "A curated list of high-quality resources, tools, datasets, organizations, and educational content related to human rights.",
+    link: "https://github.com/awesomelistsio/awesome-human-rights",
+    category: "Society"
+  },
+  {
+    title: "Awesome Journalism",
+    description:
+      "A curated list of high-quality tools, resources, and organizations for professional, investigative, data, and digital journalism.",
+    link: "https://github.com/awesomelistsio/awesome-journalism",
+    category: "Society"
   }
 ];
 
