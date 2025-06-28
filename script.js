@@ -655,6 +655,27 @@ const awesomeLists = [
       "A curated list of high-quality tools, resources, and organizations for professional, investigative, data, and digital journalism.",
     link: "https://github.com/awesomelistsio/awesome-journalism",
     category: "Society"
+  },
+  {
+    title: "Awesome Open Governance",
+    description:
+      "A curated list of projects, platforms, and APIs for transparency, civic tech, and global governance.",
+    link: "https://github.com/awesomelistsio/awesome-open-governance",
+    category: "Politics"
+  },
+  {
+    title: "Awesome Civic Tech",
+    description:
+      "A curated list of open source projects, platforms, communities, and tools advancing civic engagement and public service through technology.",
+    link: "https://github.com/awesomelistsio/awesome-civic-tech",
+    category: "Society"
+  },
+  {
+    title: "Awesome Open Data",
+    description:
+      "A curated list of high-quality open data resources, tools, platforms, and projects across domains.",
+    link: "https://github.com/awesomelistsio/awesome-open-data",
+    category: "Society"
   }
 ];
 
