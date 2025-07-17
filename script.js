@@ -676,6 +676,174 @@ const awesomeLists = [
       "A curated list of high-quality open data resources, tools, platforms, and projects across domains.",
     link: "https://github.com/awesomelistsio/awesome-open-data",
     category: "Society"
+  },
+    {
+    "title": "Awesome LLMOps",
+    "description": "A curated list of tools, frameworks, platforms, and resources for Large Language Model Operations (LLMOps) \u2014 enabling production-ready, scalable, and reliable LLM applications.",
+    "link": "https://github.com/awesomelistsio/awesome-llmops",
+    "category": "AI"
+  },
+  {
+    "title": "Awesome LangChain",
+    "description": "A curated list of resources, tools, examples, and projects using LangChain, the framework for developing applications powered by language models.",
+    "link": "https://github.com/awesomelistsio/awesome-langchain",
+    "category": "AI"
+  },
+  {
+    "title": "Awesome MLOps",
+    "description": "A curated list of tools, frameworks, platforms, and resources for Machine Learning Operations (MLOps).",
+    "link": "https://github.com/awesomelistsio/awesome-mlops",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome Privacy",
+    "description": "A curated list of tools, resources, and knowledge to protect your digital privacy and maintain online anonymity.",
+    "link": "https://github.com/awesomelistsio/awesome-privacy",
+    "category": "Privacy, Security & Intelligence"
+  },
+  {
+    "title": "Awesome OSINT",
+    "description": "A curated list of high-quality open-source intelligence (OSINT) tools, resources, and techniques for investigations, journalism, cybersecurity, and more.",
+    "link": "https://github.com/awesomelistsio/awesome-osint",
+    "category": "Privacy, Security & Intelligence"
+  },
+  {
+    "title": "Awesome Cybersecurity",
+    "description": "A curated list of high-quality cybersecurity resources, tools, frameworks, and communities to protect systems, networks, and data.",
+    "link": "https://github.com/awesomelistsio/awesome-cybersecurity",
+    "category": "Privacy, Security & Intelligence"
+  },
+  {
+    "title": "Awesome Threat Intelligence",
+    "description": "A curated list of high-quality threat intelligence resources, feeds, platforms, and tools to help detect, analyze, and respond to cybersecurity threats.",
+    "link": "https://github.com/awesomelistsio/awesome-threat-intelligence",
+    "category": "Privacy, Security & Intelligence"
+  },
+  {
+    "title": "Awesome Malware Analysis",
+    "description": "A curated list of tools, resources, labs, and communities for analyzing, dissecting, and understanding malicious software.",
+    "link": "https://github.com/awesomelistsio/awesome-malware-analysis",
+    "category": "Privacy, Security & Intelligence"
+  },
+  {
+    "title": "Awesome GitHub Actions",
+    "description": "A curated list of high-quality resources, actions, tools, and workflows for GitHub Actions \u2013 GitHub's powerful CI/CD and automation platform.",
+    "link": "https://github.com/awesomelistsio/awesome-github-actions",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome CI",
+    "description": "A curated list of awesome Continuous Integration (CI) tools, services, workflows, and resources for building, testing, and deploying code with confidence.",
+    "link": "https://github.com/awesomelistsio/awesome-ci",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome DevOps",
+    "description": "A curated list of awesome tools, resources, and best practices in DevOps \u2014 from automation to monitoring to collaboration.",
+    "link": "https://github.com/awesomelistsio/awesome-devops",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome Testing",
+    "description": "A curated list of awesome testing frameworks, tools, libraries, and resources for all levels of software testing \u2014 from unit to end-to-end.",
+    "link": "https://github.com/awesomelistsio/awesome-testing",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome QA",
+    "description": "A curated list of awesome Quality Assurance (QA) tools, frameworks, communities, and resources to help ensure software reliability, performance, and user satisfaction.",
+    "link": "https://github.com/awesomelistsio/awesome-qa",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome Test Automation",
+    "description": "A curated list of awesome frameworks, tools, libraries, and resources for automating software testing.",
+    "link": "https://github.com/awesomelistsio/awesome-test-automation",
+    "category": "DevOps and CI/CD"
+  },
+  {
+    "title": "Awesome Kubernetes",
+    "description": "A curated list of awesome tools, resources, and projects for Kubernetes.",
+    "link": "https://github.com/awesomelistsio/awesome-kubernetes",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Edge Computing",
+    "description": "A curated list of awesome resources, tools, frameworks, platforms, and research papers for Edge Computing.",
+    "link": "https://github.com/awesomelistsio/awesome-edge-computing",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome IoT",
+    "description": "A curated list of awesome Internet of Things (IoT) frameworks, platforms, tools, libraries, and resources.",
+    "link": "https://github.com/awesomelistsio/awesome-iot",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Cloud Native",
+    "description": "A curated list of awesome tools, frameworks, platforms, and resources for Cloud Native technologies and development.",
+    "link": "https://github.com/awesomelistsio/awesome-cloud-native",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Home Automation",
+    "description": "A curated list of awesome open-source tools, platforms, devices, frameworks, and resources for home automation and smart home systems.",
+    "link": "https://github.com/awesomelistsio/awesome-home-automation",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Open Source Drone Firmware",
+    "description": "A curated list of open source drone firmware, flight controllers, tools, and related resources for UAV (Unmanned Aerial Vehicle) development and research.",
+    "link": "https://github.com/awesomelistsio/awesome-open-source-drone-firmware",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Flight Controller Software",
+    "description": "A curated list of open-source and high-quality flight controller software projects, tools, and resources for drones, UAVs, and robotics.",
+    "link": "https://github.com/awesomelistsio/awesome-flight-controller-software",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Swarm Drones",
+    "description": "A curated list of tools, research papers, frameworks, and resources for swarm drones, multi-UAV systems, and coordinated aerial robotics.",
+    "link": "https://github.com/awesomelistsio/awesome-swarm-drones",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome UAV Collision Avoidance Systems",
+    "description": "A curated list of frameworks, libraries, research papers, datasets, and tools for Unmanned Aerial Vehicle (UAV) collision avoidance systems.",
+    "link": "https://github.com/awesomelistsio/awesome-uav-collision-avoidance-systems",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Flight Log Analysis",
+    "description": "A curated list of tools, frameworks, libraries, and resources for analyzing flight logs from drones (UAVs), aircraft, and other aerial vehicles.",
+    "link": "https://github.com/awesomelistsio/awesome-flight-log-analysis",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome UAV Flight Test Planning",
+    "description": "A curated list of resources, frameworks, checklists, and methodologies for Unmanned Aerial Vehicle (UAV) flight test planning.",
+    "link": "https://github.com/awesomelistsio/awesome-uav-flight-test-planning",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome UAV Root Cause Analysis",
+    "description": "A curated list of resources, methodologies, frameworks, and case studies for performing root cause analysis (RCA) on Unmanned Aerial Vehicle (UAV) systems.",
+    "link": "https://github.com/awesomelistsio/awesome-uav-root-cause-analysis",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Lidar for Drones",
+    "description": "A curated list of high-quality resources, tools, sensors, and case studies for using Lidar (Light Detection and Ranging) technology on drones.",
+    "link": "https://github.com/awesomelistsio/awesome-lidar-drones",
+    "category": "Emerging Tech: Drones & IoT"
+  },
+  {
+    "title": "Awesome Agricultural Drones",
+    "description": "A curated list of high-quality resources, tools, platforms, and research related to agricultural drones (UAVs) for precision farming and crop management.",
+    "link": "https://github.com/awesomelistsio/awesome-agricultural-drones",
+    "category": "Emerging Tech: Drones & IoT"
   }
 ];
 
