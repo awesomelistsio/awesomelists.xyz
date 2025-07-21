@@ -844,6 +844,84 @@ const awesomeLists = [
     "description": "A curated list of high-quality resources, tools, platforms, and research related to agricultural drones (UAVs) for precision farming and crop management.",
     "link": "https://github.com/awesomelistsio/awesome-agricultural-drones",
     "category": "Emerging Tech: Drones & IoT"
+  },
+    {
+    "title": "Awesome Facebook",
+    "description": "A curated list of high-quality tools, libraries, resources, and guides for working with Facebook.",
+    "link": "https://github.com/awesomelistsio/awesome-facebook",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome Instagram",
+    "description": "A curated list of high-quality tools, libraries, resources, and guides for working with Instagram.",
+    "link": "https://github.com/awesomelistsio/awesome-instagram",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome LinkedIn",
+    "description": "A curated list of high-quality tools, libraries, resources, and guides for working with LinkedIn.",
+    "link": "https://github.com/awesomelistsio/awesome-linkedin",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome GitHub",
+    "description": "A curated list of high-quality tools, resources, libraries, and guides for working with GitHub.",
+    "link": "https://github.com/awesomelistsio/awesome-github",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome YouTube",
+    "description": "A curated list of high-quality tools, resources, guides, and communities for YouTube creators, marketers, and enthusiasts.",
+    "link": "https://github.com/awesomelistsio/awesome-youtube",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome Pinterest",
+    "description": "A curated list of high-quality tools, resources, guides, and communities for Pinterest marketers, creators, and enthusiasts.",
+    "link": "https://github.com/awesomelistsio/awesome-pinterest",
+    "category": "Social & Creator Platforms"
+  },
+  {
+    "title": "Awesome Google",
+    "description": "A curated list of high-quality resources, tools, APIs, and services related to Google products and technologies.",
+    "link": "https://github.com/awesomelistsio/awesome-google",
+    "category": "Technology Giants"
+  },
+  {
+    "title": "Awesome Microsoft",
+    "description": "A curated list of high-quality resources, tools, products, APIs, and communities related to Microsoft technologies and services.",
+    "link": "https://github.com/awesomelistsio/awesome-microsoft",
+    "category": "Technology Giants"
+  },
+  {
+    "title": "Awesome Azure",
+    "description": "A curated list of awesome tools, resources, libraries, learning materials, and services related to Microsoft Azure.",
+    "link": "https://github.com/awesomelistsio/awesome-azure",
+    "category": "Cloud Platforms"
+  },
+  {
+    "title": "Awesome Visual Studio Code",
+    "description": "A curated list of awesome Visual Studio Code extensions, resources, themes, and tools.",
+    "link": "https://github.com/awesomelistsio/awesome-vscode",
+    "category": "Code Editors"
+  },
+  {
+    "title": "Awesome Ko-fi",
+    "description": "A curated list of awesome tools, resources, guides, and integrations for using Ko-fi.",
+    "link": "https://github.com/awesomelistsio/awesome-ko-fi",
+    "category": "Creator Support Platforms"
+  },
+  {
+    "title": "Awesome Patreon",
+    "description": "A curated list of awesome tools, resources, guides, and integrations for creators using Patreon.",
+    "link": "https://github.com/awesomelistsio/awesome-patreon",
+    "category": "Creator Support Platforms"
+  },
+  {
+    "title": "Awesome Buy Me a Coffee",
+    "description": "A curated list of tools, resources, guides, and integrations for creators using Buy Me a Coffee.",
+    "link": "https://github.com/awesomelistsio/awesome-buymeacoffee",
+    "category": "Creator Support Platforms"
   }
 ];
 
