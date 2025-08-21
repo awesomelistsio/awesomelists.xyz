@@ -1,81 +1,56 @@
-<!DOCTYPE html>
-<html lang="en" class="light">
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="https://awesome.himpfen.com/awesome-lists-icon.png" type="image/png">
-  <title>Awesome Lists</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src='https://cdn.tailwindcss.com'></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PBPZPGQE9Z"></script>
-  <script>
+<!doctype html><html lang="en" class="h-full"><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="/awesome-lists-icon.png" type="image/png">
+<title>Awesome Lists</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:'#27AE60'},boxShadow:{card:'0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04)',cardHover:'0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)'}}}};</script>
+<link rel="stylesheet" href="./styles.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBPZPGQE9Z"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   
     gtag('config', 'G-PBPZPGQE9Z');
-  </script>
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2079625064533995"
-   crossorigin="anonymous"></script>
-</head>
-<body class="light bg-gray-100 text-gray-800 transition-colors duration-300">
-  
-<div class="container mx-auto py-10">
-  <div class="flex justify-between items-center mb-8">
-    <h1 class="text-4xl font-bold">Awesome Lists</h1>
-    <button id="toggleDarkMode" class="p-2 border rounded shadow">Toggle Dark Mode</button>
-  </div>
-
-  <div class="flex flex-wrap justify-center gap-4 mb-4">
-    <button onclick="showLists('all')" id="allTab" class="p-2 border rounded shadow bg-blue-500 text-white">All Lists</button>
-    <button onclick="showLists('favorites')" id="favoritesTab" class="p-2 border rounded shadow">Favorites</button>
-
-    <select id="categoryFilter" class="p-2 border rounded" onchange="filterLists()">
-      <option value="">All Categories</option>
-      <option value="AI">AI</option>
-      <option value="Travel">Travel</option>
-      <option value="Programming">Programming</option>
-      <option value="Cryptocurrency">Cryptocurrency</option>
-      <option value="Databases">Databases</option>
-      <option value="Decentralized Systems">Decentralized Systems</option>
-      <option value="Digital Marketing">Digital Marketing</option>
-      <option value="Engineering">Engineering</option>
-      <option value="Frameworks">Frameworks</option>
-      <option value="Gaming Development">Gaming Development</option>
-      <option value="Mathematics">Mathematics</option>
-      <option value="Media">Media</option>
-      <option value="Platforms">Platforms</option>
-      <option value="Politics">Politics</option>
-      <option value="Quantum Computing">Quantum Computing</option>
-      <option value="Science">Science</option>
-      <option value="Society">Society</option>
-      <option value="Sustainability">Sustainability</option>
-      <option value="Space Technology">Space Technology</option>
-      <option value="Web Optimization">Web Optimization</option>
-    </select>
-
-    <select id="sortOptions" class="p-2 border rounded" onchange="sortLists()">
-      <option value="title">Sort by Title</option>
-      <option value="newest">Sort by Newest</option>
-    </select>
-  </div>
-
-  <div class="mb-4 flex justify-center">
-    <input id="searchInput" type="text" placeholder="Search Awesome Lists..." class="w-full max-w-lg p-3 border rounded-lg shadow focus:outline-none" oninput="filterLists()">
-  </div>
-
-  <div id="paginationControls" class="mb-4 flex justify-center"></div>
-
-  <div id="awesomeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+</script></head>
+<body class="h-full bg-[#f7fafc] text-slate-800 dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-800 dark:text-slate-100">
+<header class="mx-auto max-w-7xl px-6 pt-10 pb-6">
+<div class="flex items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="h-10 w-10 rounded-xl bg-emerald-600/10 ring-1 ring-emerald-700/20 grid place-content-center">
+<svg class="h-5 w-5 text-emerald-700 dark:text-emerald-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+<h1 class="text-2xl md:text-3xl font-semibold tracking-tight">Awesome Lists</h1>
 </div>
-
-<footer class="mt-8 bg-gray-200 p-4 text-center">
-  <p class="text-sm">Copyright &copy; <a href="https://www.himpfen.com/" target="_blank" class="text-blue-600 hover:underline">Brandon Himpfen</a>. All Rights Reserved.</p>
-</footer>
-
-  <script  src="./script.js"></script>
-
-</body>
-</html>
+<button id="modeToggle" class="inline-flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm ring-1 ring-slate-300 bg-white hover:bg-slate-50 text-slate-700 dark:bg-slate-800 dark:ring-slate-700 dark:text-slate-200 dark:hover:bg-slate-700" title="Toggle dark mode">
+<span class="inline-block w-4 h-4" id="modeIcon">🌙</span><span>Dark</span></button>
+</div>
+<p class="mt-6 max-w-3xl text-slate-600 leading-relaxed dark:text-slate-300">A growing collection of curated awesome lists covering programming, AI, science, sustainability, digital rights, and beyond – designed to inform, empower, and connect curious minds.</p>
+<div class="mt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+<div class="flex items-center gap-3 w-full md:w-auto">
+<div class="relative w-full md:w-[28rem]">
+<svg class="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+<input id="search" placeholder="Search lists, tags, descriptions…" class="pl-9 w-full rounded-lg bg-white border border-slate-300 text-slate-800 placeholder:text-slate-400 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500/60 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-100" />
+</div>
+<div class="relative"><select id="sort" class="appearance-none rounded-lg bg-white border border-slate-300 px-3 py-2 pr-8 text-sm dark:bg-slate-800 dark:border-slate-700">
+<option value="name">Sort: Name (A–Z)</option><option value="updated">Sort: Recently updated</option></select>
+<svg class="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"></polyline></svg>
+</div>
+<button id="clearFilters" class="rounded-lg border border-slate-300 px-3 py-2 text-sm hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800">Clear</button>
+</div></div>
+<div id="categories" class="mt-4 flex flex-wrap gap-2"></div>
+<div class="mt-4">
+<div class="inline-flex rounded-lg bg-white ring-1 ring-slate-200 p-1 dark:bg-slate-800 dark:ring-slate-700">
+<button id="tabAll" class="tab-btn rounded-md px-4 py-2 text-sm bg-slate-100 dark:bg-slate-700/60">All Lists</button>
+<button id="tabFav" class="tab-btn rounded-md px-4 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-700/60">Favourites</button>
+</div></div></header>
+<main class="mx-auto max-w-7xl px-6 pb-24"><div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+<div id="empty" class="hidden text-center text-slate-500 py-24 dark:text-slate-400">No lists match your filters.</div></main>
+<footer class="border-t border-slate-200 dark:border-slate-800">
+<div class="mx-auto max-w-7xl px-6 py-10 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-4 dark:text-slate-400">
+<div>© <span id="year"></span> Awesome Lists by <a href="https://www.boldoutlook.com/" title="Bold Outlook" target="_blank">Bold Outlook</a>.</div>
+<div class="flex items-center gap-3"><a class="hover:text-slate-900 dark:hover:text-slate-200" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top</a></div>
+</div></footer>
+<script src="./app.js"></script></body></html>
