@@ -1,4 +1,4 @@
-// Data from your current site (parsed from the uploaded project)
+// ----- Awesome Lists List -----
 const SEED_LISTS = [
   {
     "name": "Awesome AI",
